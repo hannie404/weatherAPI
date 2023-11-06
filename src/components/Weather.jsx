@@ -3,7 +3,7 @@ import cloud from './../assets/cloud.svg';
 
 const Weather = () => {
   // edit key, cityId, and cityNameApi to fetch the data on your API
-  const key = "9mw045x3Uf7ItXUcnLHnXAdhvAoMzVy2";
+  const key = "9mw045x3Uf7ItXUcnLHnXAdhvAoMzVy2"; 
   const cityId = 264885; 
   const cityNameApi = "manila";
 
@@ -97,57 +97,6 @@ const Weather = () => {
       throw error;
     }
   };
-
-
-  // return (
-  //   <div className="h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
-  //     <div className="h-screen bg-radial1">
-  //       <div className="h-screen bg-radial2 flex flex-col items-center justify-center">
-
-  //         {/* First Card - Contains the Information of the Day */}
-
-  //         <div className='h-fit w-3/6 blurred p-8 outline-2 flex flex-col items-center justify-evenly mb-10'>
-  //           <h1 className='date text-white text-2xl mb-10'>Today's</h1>
-  //           <div className='flex flex-row mb-8'>
-  //             <h1 className='text-9xl text-white me-3'>
-  //             {weatherData.length > 0 && (
-  //               <span>
-  //                 {`${weatherData[0].Temperature.Maximum.Value}`}
-  //                   <sup className="text-7xl mb-3">
-  //                     {`${weatherData[0].Temperature.Maximum.Unit}`}
-  //                   </sup>
-  //               </span>
-  //             )}
-  //             </h1>
-  //             <img src={cloud} className='w-40 ms-3' alt='Weather Icon' />
-  //           </div>
-  //           <h1 className='text-4xl font-semibold text-white mb-2' id='city'>{cityName} City</h1>
-  //           <p className='text-2xl text-white' id='country'>{countryName}</p>
-  //         </div>
-          
-  //         {/* Second Card - Contains the Days */}
-          
-  //         <div className='h-fit w-3/6 blurred p-5 outline-2 flex flex-col items-center justify-center'>
-  //           <p className='text-white mb-5 text-lg'>Next 5 Days</p>
-  //           <div className='text-white flex flex-row items-center justify-center'>
-  //             {weatherData.slice(0, 6).map((forecast, index) => (
-  //               <div
-  //                 className={`p-5 flex flex-col justify-center items-center ${index === 4 ? '' : 'border-r-2'}`}
-  //                 key={index}
-  //               >
-  //                 <p className='text-white mb-3' id='day'>{forecast.Date}</p>
-  //                 <img src={cloud} className='w-10 mb-3' alt='Weather Icon' />
-  //                 <h1 className='text-4xl text-white me-3'>
-  //                   {forecast.Temperature.Maximum.Value}<sub className='text-4xl'><sup>{forecast.Temperature.Maximum.Unit}</sup></sub>
-  //                 </h1>
-  //               </div>
-  //             ))}
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
 
   return (
     <div className="h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
