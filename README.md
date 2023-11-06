@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[![Live Website](https://img.shields.io/badge/Click%20Me-Live%20Website-blue?style=for-the-badge)](https://weather-forecast-3t49.onrender.com/)
+[![Live Website](https://img.shields.io/badge/Click%20Me-Live%20Website-blue?style=for-the-badge)](https://aweatherforecast.onrender.com/)
 
 # Weather Forecast App
 
@@ -30,8 +30,6 @@ This project is built using several technologies:
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)
 ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white&style=flat-square)
-![Axios](https://img.shields.io/badge/Axios-0097D7?logo=axios&logoColor=white&style=flat-square)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat-square)
 
 ## Getting Started
 
