@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Weather Forecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Weather Forecast App, a web application that provides weather forecasts for various locations. This app helps you plan your activities and stay prepared for different weather conditions.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+This project is built using several technologies:
 
-### `npm start`
+- **React:** A JavaScript library for building user interfaces.
+  ![React Logo](https://reactjs.org/logo-og.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Tailwind CSS:** A utility-first CSS framework for building responsive and highly customizable web applications.
+  ![Tailwind CSS Logo](https://tailwindcss.com/favicon-32x32.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Jest:** A JavaScript testing framework used for writing and running unit tests.
+  ![Jest Logo](https://jestjs.io/img/jest.png)
 
-### `npm test`
+- **Axios:** A promise-based HTTP client for making API requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Express:** A minimal and flexible Node.js web application framework used for creating a proxy server.
+  ![Express Logo](https://expressjs.com/images/express-facebook-share.png)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow the steps below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You need to have the following software installed on your machine:
 
-### `npm run eject`
+- Node.js: Download and install [Node.js](https://nodejs.org/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/your-username/weather-forecast-app.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+```bash
+  cd weather-forecast-app
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the required dependencies using npm:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm install
+```
 
-### Code Splitting
+### Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Start the development server:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Open your web browser and go to http://localhost:3000 to access the Weather Forecast App.
 
-### Making a Progressive Web App
+3. Enter a location in the search bar to view the weather forecast for that location.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Testing
 
-### Advanced Configuration
+This project includes unit tests for the Weather component using Jest. To run the tests, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Run the following command:
 
-### Deployment
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This will run the tests and display the results in your terminal.
 
-### `npm run build` fails to minify
+### Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Name: Annie-Neshreen Ibrahim
+Contact: annie.business04@gmail.com
+GitHub: @hannie404
