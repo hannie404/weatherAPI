@@ -96,7 +96,9 @@ const Weather = () => {
     <div className="h-screen bg-gradient-to-r from-sky-500 to-indigo-500">
       <div className="h-screen bg-radial1">
         <div className="h-screen bg-radial2 flex flex-col items-center justify-center">
+
           {/* First Card - Contains the Information of the Day */}
+
           <div className='h-fit w-3/6 blurred p-8 outline-2 flex flex-col items-center justify-evenly mb-10'>
             <h1 className='date text-white text-2xl mb-10'>Today's</h1>
             <div className='flex flex-row mb-8'>
@@ -115,7 +117,9 @@ const Weather = () => {
             <h1 className='text-4xl font-semibold text-white mb-2' id='city'>{cityName} City</h1>
             <p className='text-2xl text-white' id='country'>{countryName}</p>
           </div>
+          
           {/* Second Card - Contains the Days */}
+          
           <div className='h-fit w-3/6 blurred p-5 outline-2 flex flex-col items-center justify-center'>
             <p className='text-white mb-5 text-lg'>Next 5 Days</p>
             <div className='text-white flex flex-row items-center justify-center'>
