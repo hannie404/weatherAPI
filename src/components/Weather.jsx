@@ -58,7 +58,7 @@ const Weather = () => {
   // Update your getWeather function to use the updated URLs and convert temperature to Celsius
   const getWeather = async (cityId) => {
     try {
-      const baseUrl = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityId}`;
+      const baseUrl = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityId}`;
       const query = `?apikey=${key}`;
       const res = await fetch(baseUrl + query);
       const data = await res.json();
@@ -87,7 +87,7 @@ const Weather = () => {
 
   const getCityName = async (cityNameApi) => {
     try {
-      const baseUrlCity = `http://dataservice.accuweather.com/locations/v1/cities/search`;
+      const baseUrlCity = `https://dataservice.accuweather.com/locations/v1/cities/search`;
       const query = `?apikey=${key}&q=${cityNameApi}`; 
       const res = await fetch(baseUrlCity + query);
       const data = await res.json();
